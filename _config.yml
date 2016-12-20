@@ -17,7 +17,7 @@ title: 学记网
 email: yangzhiyao@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   学而时习之
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xueji.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yangzhiyao
 github_username:  yangzhiyao
