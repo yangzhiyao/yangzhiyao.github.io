@@ -6,6 +6,9 @@ categories: xueji blog
 ---
 非常兴奋，这是今年以来第一次更新博客内容。
 
+早先一些的文章在这个地址有一个镜像：
+[不透明的雾](http://xueji.usedig.com/)
+
 2014年之前的一些博客放在163.com上：
 [opaquefog.blog.163.com](http://opaquefog.blog.163.com/)
 
