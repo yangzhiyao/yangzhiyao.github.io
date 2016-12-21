@@ -21,6 +21,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xueji.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yangzhiyao
 github_username:  yangzhiyao
+repository: yangzhiyao/yangzhiyao.github.io
+google_analytics: UA-50818870-1
+JEKYLL_ENV: production
 
 # Build settings
 markdown: kramdown
