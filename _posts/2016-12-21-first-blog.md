@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello 2016"
 date:   2016-12-21 06:20:06 +0800
-categories: xueji blog
+categories: xueji
 ---
 非常兴奋，这是半年以来第一次更新博客内容。
 
