@@ -4,25 +4,29 @@ layout: default
 
 <div class="home">
 
-    <h1 class="page-heading">文章列表</h1>
+<h1 class="page-heading">文章列表</h1>
 
-    {{ content }}
+{{ content }}
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+<ul class="post-list">
+{% for post in site.posts %}
+<li>
+<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
 
-            <h2>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h2>
-        </li>
-        {% endfor %}
-    </ul>
+<h2>
+<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+</h2>
+</li>
+{% endfor %}
+</ul>
 
-    <p class="rss-subscribe">订阅
-        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
-        <a href="http://feeds.feedburner.com/xueji/rss">FeedBurner</a>
-    </p>
+<ul class="post-list">
+<li><a href="{{ site.url }}/java/">Java 知识点整理</a></li>
+</ul>
+
+<p class="rss-subscribe">订阅
+<a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+<a href="http://feeds.feedburner.com/xueji/rss">FeedBurner</a>
+</p>
 
 </div>
