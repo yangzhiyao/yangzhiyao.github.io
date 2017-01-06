@@ -1,4 +1,4 @@
-# Java 知识点整理
+# Java
 
 字符串操作
-* String.format //字符串格式化
+* String.format({{ "string/format/" }}) //字符串格式化
