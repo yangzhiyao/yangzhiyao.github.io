@@ -62,7 +62,9 @@ public static void main(String[] args) {
 
 转换方式：
 d-十进制   o-八进制   x或X-十六进制
-        上面的说明过于枯燥，我们来看几个具体的例子。需要特别注意的一点是：大部分标识字符可以同时使用。
+
+上面的说明过于枯燥，我们来看几个具体的例子。需要特别注意的一点是：大部分标识字符可以同时使用。
+
 ```java
 System.out.println(String.format("%1$,09d", -3123));
 System.out.println(String.format("%1$9d", -31));
