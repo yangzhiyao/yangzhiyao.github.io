@@ -21,7 +21,7 @@ file:/.../projects/xxx/target/xxx.jar!/...
 所以，针对这种情况需要做一下处理：
 
 ```java
-tring workingDir;
+String workingDir;
 String resultDir;
 File f = new File(this.getClass().getClassLoader().getResource("").getPath());
 workingDir = f.getParent();
