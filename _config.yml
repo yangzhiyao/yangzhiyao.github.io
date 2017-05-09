@@ -19,6 +19,7 @@ description: 学而时习之，不亦说乎 # this means to ignore newlines unti
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xueji.org" # the base hostname & protocol for your site, e.g. http://example.com
+site.disqus.shortname: xueji
 twitter_username: yangzhiyao
 github_username:  yangzhiyao
 repository: yangzhiyao/yangzhiyao.github.io
