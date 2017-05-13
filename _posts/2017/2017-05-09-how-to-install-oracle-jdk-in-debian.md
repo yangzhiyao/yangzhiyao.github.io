@@ -1,3 +1,7 @@
+---
+title: 如何在debian（以及Ubuntu等其它变种发行版）上安装oracle jdk
+---
+
 # 如何在debian（以及Ubuntu等其它变种发行版）上安装oracle jdk
 
 如何手工从oracle官方网站上下载jdk并优雅的安装。

@@ -1,3 +1,6 @@
+---
+title: 如何获得java应用程序的当前目录
+---
 # 如何获得java应用程序的当前目录
 
 ## 1、使用System.getProperty("user.dir");
