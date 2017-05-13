@@ -24,7 +24,7 @@ $ sudo tar -zxf jdk-8u131-linux-x64.tar.gz
 
 或者直接使用下面的命令：
 ```shell
-$ sudo tar x -C /opt/jdk -f jdk-8u66-linux-x64.tar.gz
+$ sudo tar x -C /opt/jdk -f jdk-8u131-linux-x64.tar.gz
 ```
 
 ## 安装jdk
