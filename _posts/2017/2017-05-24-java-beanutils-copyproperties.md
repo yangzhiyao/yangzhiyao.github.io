@@ -17,6 +17,7 @@ import org.springframework.beans.BeanUtils;
 BeanUtils.copyProperties(Object src,Object dest,String... ignoreProperties);
 ```
 
+建立一个表单对象，包含所有需要从表单收集的数据属性，然后再使用copyProperties复制到实体类。
 这样就不用写一大长串的getter,setter，不管多少个属性，一句话就搞定，轻松方便。
 
 不过，还有一些需求，比如：
