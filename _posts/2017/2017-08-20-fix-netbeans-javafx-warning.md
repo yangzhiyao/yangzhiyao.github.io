@@ -6,7 +6,7 @@ title: Fix the javafx Warning
 
 > Missing Codebase manifest attribute for:xxx.jar
 
-you can edit your build.xml and add the following ANT targets and macros:
+在 build.xml 文件添加以下代码:
 
     <target name="-post-jfx-jar">
         <update-libs-manifest />
@@ -74,6 +74,10 @@ you can edit your build.xml and add the following ANT targets and macros:
         </sequential>
     </macrodef>
 
-After that, you just have to add manifest.custom.codebase=<your_codebase> to your project.properties. For example: manifest.custom.codebase=localhost
+之后，只需要在 project.properties 文件添加：
+    manifest.custom.codebase=<your_codebase>
 
-Attention: This code is for a JavaFX application using Netbeans default ANT build process. You'll need to update it accordingly if that's not your case - that will require a change on the first target (<target name="-post-jfx-jar">), the property names and the condition that checks the permissions-elevated property.
+例如: 
+    manifest.custom.codebase=localhost
+
+注意：本代码仅适用于 Netbeans 默认的 ANT 构建过程。你需要按照你的需要更新它，根据需要改变 target(<target name="-post-jfx-jar">)，属性名和权限检查条件。
