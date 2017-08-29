@@ -4,17 +4,16 @@ title: js foreach 的几种形式
 
 ## 集合数据准备
 ```js
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>
-  // Setup collection
-  var collection = [];
-  for (var i = 0; i < 200; i++) {
-    collection.push({
-      index: i,
-      data: 'Index element ' + i
-    });
-  }
+// Setup collection
+var collection = [];
+for (var i = 0; i < 200; i++) {
+  collection.push({
+    index: i,
+    data: 'Index element ' + i
+  });
+}
 </script>
 ```
 
