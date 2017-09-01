@@ -15,26 +15,26 @@ Debian 8 jessie 干净系统
 ## 先从oracle官网java se下载页面中找到最新版本的jdk下载地址,并使用wget下载：
 
 ```shell
-$ wget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz
+$ wget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
 ```
 
 ## 解压到 /opt/jdk/
 ```shell
 $ sudo mkdir /opt/jdk/
-$ sudo mv jdk-8u131-linux-x64.tar.gz /opt/jdk/
+$ sudo mv jdk-8u144-linux-x64.tar.gz /opt/jdk/
 $ sudo cd /opt/jdk/
-$ sudo tar -zxf jdk-8u131-linux-x64.tar.gz
+$ sudo tar -zxf jdk-8u144-linux-x64.tar.gz
 ```
 
 或者直接使用下面的命令：
 ```shell
-$ sudo tar x -C /opt/jdk -f jdk-8u131-linux-x64.tar.gz
+$ sudo tar x -C /opt/jdk -f jdk-8u144-linux-x64.tar.gz
 ```
 
 ## 安装jdk
 ```shell
-$ sudo update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_131/bin/java 100
-$ sudo update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_131/bin/javac 100
+$ sudo update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_144/bin/java 100
+$ sudo update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_144/bin/javac 100
 $ update-alternatives --config java
 ```
 
@@ -49,7 +49,7 @@ $ update-alternatives --config javac
 
 ```shell
 $ java -version
-java version "1.8.0_131"
+java version "1.8.0_144"
 Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
 Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
 root@hydra:/opt/jdk#
@@ -69,5 +69,5 @@ $ sudo update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.8.0_xxx/
 $ update-alternatives --config java
 $ update-alternatives --config javac
 
-$ sudo rm -rf /opt/jdk/jdk1.8.0_131/
+$ sudo rm -rf /opt/jdk/jdk1.8.0_144/
 ```
